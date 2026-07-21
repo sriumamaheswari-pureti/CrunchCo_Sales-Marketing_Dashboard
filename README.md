@@ -1,18 +1,92 @@
-# CrunchCo Data Room
+# 📊 Crunch Co Sales & Marketing Performance Dashboard
 
-Five files for the brand performance diagnostic, at **daily** grain covering
-**January 2022 through early June 2026**. They were exported from different
-systems and are provided as-is.
+## 📌 Overview
 
-| File | Grain | Notes |
-|------|-------|-------|
-| `sales_daily.csv` | day × banner × store × SKU | Sell-through: units, gross/net sales, promo flag, stores selling. ~494k rows. |
-| `media_spend.csv` | day × channel | Planned spend, actual spend, impressions. |
-| `product_master.xlsx` | SKU | Product reference: name, sub-brand, pack size, category, list price, launch. |
-| `store_region.csv` | store | Store → banner → region mapping and market tier (45 stores). |
-| `promo_log.csv` | week × banner × SKU | Which promotions were planned vs. actually executed. |
+The **Crunch Co Performance Dashboard** is an interactive **Power BI** project designed to monitor and analyze sales performance across multiple business dimensions. The dashboard provides key business insights through dynamic visualizations, helping stakeholders make informed, data-driven decisions.
 
-This is a large, store-level daily dataset — you will need to aggregate it in
-code, not read it by hand. Validate before you trust it: confirm join keys line
-up, units are consistent, time coverage is complete, and each field means what
-its name suggests.
+---
+
+## 🎯 Objectives
+
+* Monitor overall business performance using key performance indicators (KPIs).
+* Analyze sales trends across products, regions, banners, and channels.
+* Compare year-over-year sales and impressions.
+* Track promotional campaign execution.
+* Enable interactive filtering for detailed business analysis.
+
+---
+
+## 🛠️ Tools & Technologies
+
+* **Power BI**
+* **Power Query (ETL)**
+* **DAX (Data Analysis Expressions)**
+* **Data Modeling**
+
+---
+
+## 📊 Dashboard Features
+
+### KPI Cards
+
+* 🏪 **45 Stores**
+* 👀 **3 Billion Impressions**
+* 💰 **1.12 Billion Net Sales**
+* 📦 **5 Million Units Sold**
+
+### Interactive Filters
+
+* Banner
+* Channel
+* Date
+* Region
+
+### Visualizations
+
+* **Year-over-Year Impressions by Channel**
+* **Promo Execution Rate (%)**
+* **Year-over-Year Sales by Banner**
+* **Net Sales by Category**
+* **Sales Contribution by Product**
+* **Quantity Sold by Product**
+* **Regional Sales Analysis**
+
+---
+
+## 📈 DAX Measures Used
+
+* Month-to-Date (MTD)
+* Quarter-to-Date (QTD)
+* Year-to-Date (YTD)
+* Year-over-Year (YoY)
+* Month-over-Month (MoM)
+
+---
+
+## 🔍 Key Insights
+
+* Tracked **1.12B+ Net Sales** across **45 stores**.
+* Monitored **3B+ customer impressions** and **5M+ units sold**.
+* Achieved **82.13% Promo Execution Rate**.
+* Identified top-performing products, regions, banners, and sales channels.
+* Enabled interactive drill-down analysis using slicers.
+
+---
+
+## 🚀 Skills Demonstrated
+
+* Power BI Dashboard Development
+* Power Query (ETL)
+* DAX Calculations
+* Data Modeling
+* KPI Reporting
+* Data Visualization
+* Sales Analytics
+* Trend Analysis
+* Business Intelligence
+* Performance Analysis
+
+---
+## 📌 Project Outcome
+This dashboard transforms raw sales data into actionable business insights through interactive visualizations, KPI tracking, and advanced DAX calculations. It enables stakeholders to monitor performance, identify trends, and make informed business decisions efficiently.
+
